@@ -6,7 +6,7 @@ import ProjectModal from "./reactComponents/ProjectModal";
 export default function ReactUI() {
   return (
     <>
-      <p className="controls-message">Tap/Click around to move</p>
+      <p className="controls-message">Кликни и зажми, чтобы ходить</p>
       <CameraController />
       <SocialModal />
       <EmailModal />

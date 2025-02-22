@@ -25,28 +25,36 @@ export default function makeWorkExperienceCard(
     k.opacity(0),
   ]);
 
-  const history = card.add([
+  const company = card.add([
     k.text("hello world!"),
-    k.text(
-      `${roleData.company.name} -- ${roleData.company.startDate}-${roleData.company.endDate}`,
-      {
-        font: "ibm-regular",
-        size: 20,
-      }
-    ),
+    k.text(`${roleData.company.name}`, {
+      font: "ibm-bold",
+      size: 20,
+    }),
     k.color(k.Color.fromHex(PALETTE.color1)),
     k.pos(20, 60),
+    k.opacity(0),
+  ]);
+
+  const history = card.add([
+    k.text("hello world!"),
+    k.text(`${roleData.company.startDate} — ${roleData.company.endDate}`, {
+      font: "ibm-bold",
+      size: 20,
+    }),
+    k.color(k.Color.fromHex(PALETTE.color1)),
+    k.pos(20, 90),
     k.opacity(0),
   ]);
 
   const description = card.add([
     k.text(roleData.description, { font: "ibm-regular", size: 25, width: 750 }),
     k.color(k.Color.fromHex(PALETTE.color1)),
-    k.pos(20, 110),
+    k.pos(20, 130),
     k.opacity(0),
   ]);
 
-  opacityTrickleDown(parent, [title, history, description]);
+  opacityTrickleDown(parent, [title, company, history, description]);
 
   return card;
 }

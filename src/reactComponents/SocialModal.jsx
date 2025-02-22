@@ -13,7 +13,7 @@ export default function SocialModal() {
   const buttons = [
     {
       id: 0,
-      name: "Yes",
+      name: "Да",
       handler: () => {
         window.open(selectedLink, "_blank");
         setIsVisible(false);
@@ -21,7 +21,7 @@ export default function SocialModal() {
     },
     {
       id: 1,
-      name: "No",
+      name: "Нет",
       handler: () => {
         setIsVisible(false);
       },
@@ -32,7 +32,7 @@ export default function SocialModal() {
     isVisible && (
       <div className="modal">
         <div className="modal-content">
-          <h1>Do you want to open this link?</h1>
+          <h1>Хочешь открыть ссылку?</h1>
           <span>{selectedLink}</span>
           <p>{selectedLinkDescription}</p>
           <div className="modal-btn-container">

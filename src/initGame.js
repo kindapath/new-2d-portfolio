@@ -49,6 +49,8 @@ export default async function initGame() {
   k.loadSprite("github-logo", "./logos/github-logo.png");
   k.loadSprite("linkedin-logo", "./logos/linkedin-logo.png");
   k.loadSprite("youtube-logo", "./logos/youtube-logo.png");
+  k.loadSprite("telegram-logo", "./logos/telegram-logo.png");
+  k.loadSprite("vk-logo", "./logos/vk-logo.png");
   k.loadSprite("x-logo", "./logos/x-logo.png");
   k.loadSprite("substack-logo", "./logos/substack-logo.png");
   k.loadSprite("javascript-logo", "./logos/js-logo.png");
@@ -112,7 +114,7 @@ export default async function initGame() {
       container.add([
         k.text(generalData.header.title, { font: "ibm-bold", size: 88 }),
         k.color(k.Color.fromHex(PALETTE.color1)),
-        k.pos(395, 0),
+        k.pos(450, 0),
         k.opacity(0),
       ]);
 
@@ -122,7 +124,7 @@ export default async function initGame() {
           size: 48,
         }),
         k.color(k.Color.fromHex(PALETTE.color1)),
-        k.pos(485, 100),
+        k.pos(400, 100),
         k.opacity(0),
       ]);
 

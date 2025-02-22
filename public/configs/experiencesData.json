@@ -1,27 +1,14 @@
 [
   {
     "pos": { "x": 150, "y": -100 },
-    "cardHeight": 250,
+    "cardHeight": 500,
     "roleData": {
-      "title": "Front-End Software Engineer",
-      "description": "Enhanced [\\REDACTED\\]'s interactive design platform by building and optimizing prototyping tools, empowering designers to create high-fidelity experiences and bridging the gap between design and development.",
+      "title": "Frontend / Mobile Developer",
+      "description": "Разрабатывал приложение на React Native для отслеживания местоположения сотрудников. Писал модули на Kotlin и Swift для работы с Bluetooth и IMU-датчиками. \n\nНастраивал CI/CD, автоматизировал публикацию в RuStore и AppStore. \n\nРаботал с TypeScript, FSD, Redux Toolkit, GraphQL, REST API и WebSockets. Создал веб-приложение для команды на Next.js для визуализации данных. \n\nРазрабатывал бекенд на Node.js (Fastify, Nest.js), использовал Docker и Kubernetes, создавал прототипы на Golang.",
       "company": {
-        "name": "[\\REDACTED]",
-        "startDate": "2024",
-        "endDate": "Present"
-      }
-    }
-  },
-  {
-    "pos": { "x": 150, "y": 180 },
-    "cardHeight": 250,
-    "roleData": {
-      "title": "Product Software Engineer",
-      "description": "Improved [\\REDACTED]'s real-time design collaboration tool by developing new components and refining existing features, enhancing workflow efficiency and creativity for design teams worldwide.",
-      "company": {
-        "name": "[\\REDACTED]",
-        "startDate": "2021",
-        "endDate": "2023"
+        "name": "МТС Digital",
+        "startDate": "Октябрь 2023",
+        "endDate": "Настоящее время (1,5 года)"
       }
     }
   }

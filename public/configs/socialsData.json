@@ -1,48 +1,37 @@
 [
   {
-    "pos": { "x": 300, "y": 250 },
+    "pos": { "x": 400, "y": 250 },
     "name": "GitHub",
-    "description": "GitHub is where I host my projects.",
-    "link": "https://github.com/jslegenddev",
+    "description": "Здесь можно найти мои проекты.",
+    "link": "https://github.com/kindapath",
     "logoData": { "name": "github-logo", "width": 228.6, "height": 179.5 }
   },
   {
-    "pos": { "x": 500, "y": 250 },
-    "name": "YouTube",
-    "description": "I make JavaScript/TypeScript game dev courses there.",
-    "link": "https://youtube.com/@jslegenddev",
+    "pos": { "x": 600, "y": 250 },
+    "name": "VK",
+    "description": "Это мой VK, здесь я бываю редко.",
+    "link": "https://vk.com/immakinda",
     "logoData": {
-      "name": "youtube-logo",
-      "width": 160,
-      "height": 110
-    }
-  },
-  {
-    "pos": { "x": 700, "y": 250 },
-    "name": "X",
-    "description": "Here is my X/Twitter, I don't really use it much.",
-    "link": "https://x.com/jslegenddev",
-    "logoData": {
-      "name": "x-logo",
+      "name": "vk-logo",
       "width": 128,
       "height": 128
     }
   },
   {
-    "pos": { "x": 900, "y": 250 },
-    "name": "Substack",
-    "description": "I make written JavaScript/TypeScript game dev tutorials there.",
-    "link": "https://jslegenddev.substack.com/",
+    "pos": { "x": 800, "y": 250 },
+    "name": "Telegram",
+    "description": "Здесь я отвечу быстрее всего.",
+    "link": "https://t.me/kindaboii",
     "logoData": {
-      "name": "substack-logo",
+      "name": "telegram-logo",
       "width": 128,
       "height": 128
     }
   },
   {
-    "pos": { "x": 1100, "y": 250 },
+    "pos": { "x": 1000, "y": 250 },
     "name": "Email",
-    "address": "jslegend@protonmail.com",
+    "address": "kindaboii@yandex.ru",
     "logoData": {
       "name": "email-logo",
       "width": 128,

@@ -1,10 +1,10 @@
 {
   "header": {
-    "title": "Hi, I'm JSLegendDev!",
-    "subtitle": "A creative software developer"
+    "title": "Привет, я - Женя!",
+    "subtitle": "Разработчик, любящий свою работу"
   },
-  "section1Name": "About",
-  "section2Name": "Skills",
-  "section3Name": "Work Experience",
-  "section4Name": "Projects"
+  "section1Name": "Обо мне",
+  "section2Name": "Навыки",
+  "section3Name": "Опыт работы",
+  "section4Name": "Проекты"
 }
